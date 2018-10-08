@@ -1,0 +1,12 @@
+#!/bin/bash
+AFTER="Last Saturday"
+AUTHOR=dfelinto
+
+echo ";'''Commits'''"
+
+git log \
+  --oneline \
+  --author="$AUTHOR" \
+  --after="$AFTER" \
+  --format="* %s {{GitCommit|%h}}."
+
