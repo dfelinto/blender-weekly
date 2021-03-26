@@ -1,6 +1,6 @@
 #!/bin/bash
 AFTER="Last Saturday"
-AUTHOR=dfelinto
+AUTHOR="Dalai"
 
 echo ";'''Commits'''"
 
